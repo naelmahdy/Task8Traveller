@@ -39,8 +39,8 @@
   width: 80px;
   height: 80px;
   position: fixed;
-  bottom: 30px;
-  right: 50px;
+  bottom: 3%;
+  right: 2%;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -58,10 +58,18 @@
   color: #0798bc;
 }
 
+
+
+
+
+
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .navbar-brand {
     display: block;
+  }
+  .info{
+    display: none !important;
   }
 }
 
@@ -69,6 +77,9 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-brand {
     display: block;
+  }
+  .info{
+    display: none !important;
   }
 }
 
@@ -83,6 +94,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-brand {
     display: none;
+    
   }
 }
 
@@ -91,4 +103,9 @@
   .navbar-brand {
     display: none;
   }
+}
+@media (max-width: 992px) {
+.caurselHide{
+  display: none;
+}
 }
